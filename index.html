@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixline — AI IT Support</title>
+<meta name="description" content="Fixline listens to your IT problem and fixes it — powered by an AI agent, live in minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Fixline
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#setup">Get started</a>
+    </nav>
+    <a class="nav-cta" href="#top" id="reportIssueBtn">Report an issue</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">AI-powered IT support</p>
+        <h1>Tell it what's broken.<br>Watch it get fixed.</h1>
+        <p class="hero-sub">Fixline listens to an IT problem in plain language, asks the right follow-up questions, and resolves it — or hands it to the right engineer with full context already attached. Click the chat bubble in the corner to try it live.</p>
+        <div class="hero-actions">
+          <a href="#how" class="btn btn-ghost">See how it works</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>68%</strong><span>resolved without a human</span></div>
+          <div><strong>&lt; 40s</strong><span>average first response</span></div>
+          <div><strong>24/7</strong><span>always listening</span></div>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="panel-window">
+          <div class="panel-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="panel-title">Fixline agent</span>
+          </div>
+          <div class="panel-body">
+            <div class="bubble agent">Hi, I'm listening — what's going on with your setup?</div>
+            <div class="bubble user">My VPN keeps dropping every few minutes on the new laptop.</div>
+            <div class="bubble agent">Got it. Checking your device's VPN client version and network logs now…</div>
+          </div>
+          <div class="panel-input">
+            <span class="mic-dot"></span>
+            <span>Try the real thing via the chat bubble &#8594;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2>Three steps from problem to fix</h2>
+    </div>
+    <ol class="steps">
+      <li>
+        <span class="step-index">01</span>
+        <h3>Describe the issue</h3>
+        <p>Type or talk through what's happening — a frozen app, a login that won't work, a printer that's gone quiet. No ticket forms, no categories to guess at.</p>
+      </li>
+      <li>
+        <span class="step-index">02</span>
+        <h3>The agent investigates</h3>
+        <p>It asks clarifying questions, pulls device and account context, and checks known issues before proposing a fix — the same triage a senior technician would run.</p>
+      </li>
+      <li>
+        <span class="step-index">03</span>
+        <h3>Resolved or routed</h3>
+        <p>Simple issues are fixed on the spot with guided steps. Anything that needs a human is escalated instantly with the full conversation and diagnostics attached.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="capabilities" id="capabilities">
+    <div class="section-head">
+      <p class="eyebrow">Capabilities</p>
+      <h2>What it's built to handle</h2>
+    </div>
+    <div class="capability-grid">
+      <div class="capability-card">
+        <h3>Password &amp; access</h3>
+        <p>Resets, MFA re-enrollment, and access requests, verified and completed without a help desk queue.</p>
+      </div>
+      <div class="capability-card">
+        <h3>Device &amp; network</h3>
+        <p>Wi‑Fi, VPN, and printer issues diagnosed from live device signals, not a guessed checklist.</p>
+      </div>
+      <div class="capability-card">
+        <h3>Software &amp; access requests</h3>
+        <p>Installs, licenses, and permission changes routed through the right approval automatically.</p>
+      </div>
+      <div class="capability-card">
+        <h3>Smart escalation</h3>
+        <p>When a fix needs a person, the agent hands off with a full transcript, logs, and what's already been tried.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="setup" id="setup">
+    <div class="section-head">
+      <p class="eyebrow">Get started</p>
+      <h2>Talk to Fixline now</h2>
+      <p class="section-sub">Click the chat bubble in the bottom-right corner of this page — it's connected live to our Agentforce agent.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© 2026 Fixline Internal IT</span>
+    <span class="footer-note">Powered by Salesforce Agentforce</span>
+  </div>
+</footer>
+
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DgK000002X1tp',
+				'IT_channel',
+				'https://orgfarm-17a6526ff8-dev-ed.develop.my.site.com/ESWITchannel1790070928500',
+				{
+					scrt2URL: 'https://orgfarm-17a6526ff8-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://orgfarm-17a6526ff8-dev-ed.develop.my.site.com/ESWITchannel1790070928500/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+
+</body>
+</html>
